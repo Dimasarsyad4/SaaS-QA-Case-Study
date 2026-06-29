@@ -1,6 +1,6 @@
 # QA Manual Tester Portfolio: Portfolio Case Study
 **Platform:** Fingerspot.io (Cloud-Based HR & Attendance SaaS)  
-**Role:** QA Manual Tester & Technical Support
+**Role:** QA Manual Tester & Technical Support  
 **Platform Type:** Web Application (Admin & HR Dashboard) + IoT Hardware Integration  
 **Testing Types:** Functional Testing, Regression Testing, Integration Testing, Boundary Value Analysis, and Usability Testing.  
 **Project Artifact:** https://docs.google.com/spreadsheets/d/198XbGm-sGSpqSK7jHHXOpqpWBGx37SyOocW86j-avZo/edit?usp=sharing
