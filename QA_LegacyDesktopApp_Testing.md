@@ -8,11 +8,9 @@
 
 ## 1. Project Overview & Situation
 
-This project involved testing **Fingerspot Personnel**, a desktop-based attendance and payroll management application that handles enterprise business logic ranging from employee shift scheduling to data synchronization between local physical biometric hardware and cloud database infrastructures.
+This project involved testing Enterprise HRIS Desktop Application, a desktop-based attendance and payroll management application that handles enterprise business logic ranging from employee shift scheduling to data synchronization between local physical biometric hardware and cloud database infrastructures.
 
 The product was an actively-used desktop system undergoing key version updates. My primary challenge was ensuring new deployments did not disrupt critical paths—such as attendance report generation, local network handshakes, and database synchronization stability—particularly given the initial absence of a pre-existing structured QA documentation framework.
-
-> 📊 **Artifact Link:** [Download Full Test Cases & Bug Report Spreadsheet (Excel)](Fingerspot_Personnel_TestDocs.xlsx)
 
 ---
 
