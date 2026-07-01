@@ -49,6 +49,6 @@ The system under test included a web admin dashboard, subscription/billing flows
 
 Feel free to reach out if you'd like to discuss the technical depth of this work or review full documentation in an interview setting.
 
-**Dimas Arsyad Hidayat**
-📧 Dimasarsyad04@gmail.com
+**Dimas Arsyad Hidayat**  
+📧 Dimasarsyad04@gmail.com  
 💼 www.linkedin.com/in/dimas-hidayat
