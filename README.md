@@ -51,4 +51,4 @@ Feel free to reach out if you'd like to discuss the technical depth of this work
 
 **Dimas Arsyad Hidayat**  
 📧 Dimasarsyad04@gmail.com  
-💼 www.linkedin.com/in/dimas-hidayat
+💼 www.linkedin.com/in/dimas-hidayat-911683120
