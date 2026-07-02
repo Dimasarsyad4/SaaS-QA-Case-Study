@@ -1,4 +1,4 @@
-# QA Manual Tester Portfolio: Portfolio Case Study
+# QA Manual Tester: Portfolio Case Study
 
 **Platform Type:** Desktop Attendance Management System & IoT Hardware Integration  
 **Role:** QA Manual Tester & Technical Support  
@@ -28,7 +28,7 @@ The product was an actively-used desktop system undergoing key version updates. 
 I structured manual testing execution across key modules, combining positive, negative, and boundary value testing approaches:
 
 ### A. Employee Management Module
-* **Shortcut Entry Testing:** Verified rapid employee profile generation using down-arrow keyboard navigation shortcuts to ensure efficient continuous row creation.
+* **Shortcut Entry Testing:** Verified rapid employee profile generation using keyboard navigation shortcuts to ensure efficient continuous row creation.
 * **Data Sanitization Checks:** Conducted negative testing on critical numeric input boxes, discovering a flaw where alphabetic characters could bypass standard UI fields and break downstream reporting queries.
 * **Boundary Value Analysis:** Validated character length limitations on national identification forms to prevent data truncation or background database buffer errors.
 
@@ -49,7 +49,7 @@ During testing cycles, I identified and documented several high-severity defects
 
 | Bug Category | Severity | Outcome |
 | :--- | :--- | :--- |
-| Weak input validation on NIK field allowing alphabetic bypass via keyboard navigation | Critical | Documented error flow; designed validation workaround to block local reporting database corruption |
+| Weak input validation on structured national ID field allowing alphabetic bypass via keyboard navigation | Critical | Documented error flow; designed validation workaround to block local reporting database corruption |
 | Missing user ID collision validation during profile uploads to biometric hardware terminals | Critical | Mitigated through field deployment safeguards to prevent irreversible biometric identity scrambling |
 | Hardcoded un-cancelable duplicate alert loop triggering connection timeout failures | High | Isolated frontend UI thread lock; recommended event handling refactor to optimize notification loops |
 | Silent integration failure allowing incorrect database schemas to be saved without alerts | High | Escalated backend validation gap to core engineering team for immediate schema check implementations |
