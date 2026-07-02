@@ -4,11 +4,11 @@ The following is a representative sample of defects identified, documented, and 
 
 | Bug ID | Title | Module | Severity | Priority | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **BUG-P01** | Insufficient input validation allows alphabetic characters into a structured numeric NIK field via keyboard shortcuts, causing downstream report generation failures | Employee Data / Reporting | Critical | High | Reported — Root Cause Identified |
+| **BUG-P01** | Insufficient input validation allows alphabetic characters into a structured numeric ID field via keyboard shortcuts, causing downstream report generation failures | Employee Data / Reporting | Critical | High | Reported — Root Cause Identified |
 | **BUG-P02** | Absence of database schema validation on cloud configuration panel allows mismatched parameters to save silently, breaking data routing without throwing system alerts | Cloud Integration / Data | High | High | Reported — Mitigation Proposed |
 | **BUG-P03** | Local network communication timeout triggers an un-cancelable sequence of 5 consecutive alert pop-ups, temporarily locking the primary application interface thread | Device Connectivity / UX | High | High | Reported — UX Flaw Identified |
 | **BUG-P04** | Missing user ID collision verification during bulk profile uploads to local biometric devices triggers a silent overwrite, scrambling profile mappings on the physical terminal | IoT Integration / Sync | Critical | High | Reported — Risk Analysis Attached |
-| **BUG-P05** | Cloud integration gateway encounters intermittent connection drops and data-fetching sync delays during prolonged automated continuous data streaming cycles | Cloud Integration / Sync | High | High | In Progress — Escalated to Core Eng |
+| **BUG-P05** | Cloud integration gateway encounters intermittent connection drops and data-fetching sync delays during prolonged automated continuous data streaming cycles | Cloud Integration / Sync | High | High | Identified & Escalated to Development Team |
 | **BUG-P06** | No built-in connection test mechanism or telemetry utility available on cloud control panels — users cannot pre-validate API reachability before initiating data routing | Cloud Integration / UX | Medium | High | Reported — Feature Gap Identified |
 
 ### Description Format Used in Full Documentation
