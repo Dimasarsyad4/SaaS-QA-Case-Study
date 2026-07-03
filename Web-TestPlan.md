@@ -168,7 +168,7 @@ The testing process will produce:
 
 # 11. Related Documents
 
-- Web-TestStrategy.md
+Web-TestStrategy.md
 - Web-TestCaseStudy.md
 - Web-BugReport.md
 - Web-TestExecutionReport.md
