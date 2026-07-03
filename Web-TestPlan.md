@@ -168,12 +168,11 @@ The testing process will produce:
 
 # 11. Related Documents
 
-- 02-TestStrategy.md
-- 03-QA-Web-Testing-Case-Study.md
-- 04-TestCases.xlsx
-- 05-BugReport.md
-- 06-TestExecutionReport.md
-- 07-TestSummaryReport.md
+- Web-TestStrategy.md
+- Web-QA-TestCase-Study.md
+- Web-BugReport.md
+- Web-TestExecutionReport.md
+- Web-TestSummaryReport.md
 
 ---
 
