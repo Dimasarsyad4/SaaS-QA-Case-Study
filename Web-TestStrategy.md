@@ -290,11 +290,11 @@ Production data is not used during testing.
 
 # 10. Related Documents
 
-- 01-Web-Test-Plan.md
-- 03-Web-QA-Testing-Case-Study.md
-- 04-Web-Bug-Report.md
-- 05-Web-Test-Execution-Report.md
-- 06-Web-Test-Summary-Report.md
+- Web-TestPlan.md
+- Web-QA-TestCase-Study.md
+- Web-BugReport.md
+- Web-TestExecutionReport.md
+- Web-TestSummaryReport.md
 
 ---
 
