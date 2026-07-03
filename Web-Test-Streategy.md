@@ -38,7 +38,7 @@ The testing strategy aims to:
 
 ---
 
-# 3. Testing Scope
+# 3. Testing Approach
 
 The following testing approaches are applied throughout the project.
 
@@ -288,26 +288,13 @@ Production data is not used during testing.
 
 ---
 
-# 10. Exit Criteria
-
-Testing activities are considered complete when:
-
-- All planned test cases have been executed.
-- Critical defects have been resolved.
-- High severity defects have been retested.
-- Regression testing passes successfully.
-- Test Summary Report has been completed.
-
----
-
-# 11. Related Documents
+# 10. Related Documents
 
 - 01-Web-Test-Plan.md
 - 03-Web-QA-Testing-Case-Study.md
-- 04-Web-Test-Cases.xlsx
-- 05-Web-Bug-Report.md
-- 06-Web-Test-Execution-Report.md
-- 07-Web-Test-Summary-Report.md
+- 04-Web-Bug-Report.md
+- 05-Web-Test-Execution-Report.md
+- 06-Web-Test-Summary-Report.md
 
 ---
 
