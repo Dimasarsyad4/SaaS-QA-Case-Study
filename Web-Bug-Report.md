@@ -1,5 +1,24 @@
 # Bug Log — Sample Defects Identified During QA Testing
 
+## Document Information
+
+| Item | Description |
+|------|-------------|
+| Project | Cloud-Based HR & Attendance SaaS Platform (Web Admin Dashboard) |
+| Document | Web Bug Report |
+| Application Version | 2.0 |
+| Author | Dimas Hidayat |
+| Testing Type | Manual Testing |
+
+# Defect Summary
+
+| Severity | Count |
+|----------|------:|
+| Critical | 0 |
+| High | 2 |
+| Medium | 2 |
+| Low | 0 |
+
 *The following is a representative sample of defects identified, documented, and tracked during manual QA testing on a cloud-based HR & Attendance SaaS platform. Details have been generalized to respect confidentiality obligations to my previous employer. Only resolved issues are listed here; in-progress or unresolved findings are withheld.*
 
 | Bug ID | Title | Module | Severity | Priority | Status |
