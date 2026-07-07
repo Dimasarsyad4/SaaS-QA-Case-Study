@@ -19,12 +19,23 @@ This repository documents my manual QA testing work across two distinct systems:
 
 ## Repository Contents
 
+### Case Study #1 — Web SaaS Platform
+
 | File | Description |
 |---|---|
-| [QA-Web-Testing-Portfolio.md](./QA-Web-Testing-Portfolio.md) | Case study #1 — Web SaaS platform: test scope, methodology, key findings, and testing contribution summary |
-| [BugLogWeb_Portfolio.md](./BugLogWeb_Portfolio.md) | Bug log #1 — Representative defects identified during web SaaS platform testing |
-| [QA_LegacyAppDesktop_Testing.md](./QA_LegacyAppDesktop_Testing.md) | Case study #2 — Desktop app & IoT integration: test scope, methodology, key findings, and testing contribution summary |
-| [BugLogLegacyApp.md](./BugLogLegacyApp.md) | Bug log #2 — Representative defects identified during desktop app & IoT hardware integration testing |
+| [Web-TestPlan.md](./Web-TestPlan.md) | Test plan — objectives, scope, environment, risks, and testing approach |
+| [Web-TestStrategy.md](./Web-TestStrategy.md) | Test strategy — methodology, testing types, entry/exit criteria, and tools |
+| [Web-TestCaseStudy.md](./Web-TestCaseStudy.md) | Test case study — detailed test scenarios and test cases per module |
+| [Web-TestExecutionReport.md](./Web-TestExecutionReport.md) | Test execution report — execution results per test case with pass/fail status |
+| [Web-TestSummaryReport.md](./Web-TestSummaryReport.md) | Test summary report — overall quality assessment and release recommendation |
+| [Web-BugReport.md](./Web-BugReport.md) | Bug report — representative defects identified, documented, and tracked |
+
+### Case Study #2 — Desktop Application & IoT Hardware Integration
+
+| File | Description |
+|---|---|
+| [QA_LegacyAppDesktop_Testing.md](./QA_LegacyAppDesktop_Testing.md) | Case study — test scope, methodology, key findings, and testing contribution summary |
+| [BugLogLegacyApp.md](./BugLogLegacyApp.md) | Bug log — representative defects identified during desktop app & IoT hardware integration testing |
 
 ---
 
@@ -36,7 +47,8 @@ This repository documents my manual QA testing work across two distinct systems:
 - 6 modules tested — Authentication, Subscription & Billing, Employee Management, Payment Gateway, Leave Management, Reporting & Dashboard
 - Critical bugs identified — including payment gateway regression and subscription activation anomalies with direct business/revenue impact
 - Methodologies — Boundary Value Analysis (BVA), Negative Testing, Regression Testing, API Integration Testing, Basic Security Testing (brute force, invalid credential validation)
-- Tools — Jira, Postman, SQL
+- Full documentation cycle — Test Plan → Test Strategy → Test Cases → Execution Report → Summary Report → Bug Report
+- Tools — Internal Ticketing System, Postman, SQL
 
 ---
 
@@ -49,13 +61,14 @@ This repository documents my manual QA testing work across two distinct systems:
 - 10 test cases executed — 7 Pass, 2 Fail, 1 Informational
 - Critical bugs identified — including input validation gap causing data corruption and silent data overwrite during IoT sync conflict
 - Advanced troubleshooting — network isolation diagnostics (mobile hotspot vs. corporate LAN), OS privilege assessment, cross-team escalation with structured diagnostic logs
-- Tools — Jira, Postman, SQL, Windows OS environment testing
+- Tools — Internal Ticketing System, Postman, SQL, Windows OS environment testing
 
 ---
 
 ## Skills Demonstrated
 
 - Designing and executing structured test cases and test scenarios
+- Writing comprehensive test plans, test strategies, and test summary reports
 - Identifying and documenting defects with clear severity/priority classification
 - Communicating findings with business impact context, not just technical details
 - API testing and database-level validation alongside UI testing
@@ -72,5 +85,5 @@ This repository documents my manual QA testing work across two distinct systems:
 Feel free to reach out if you'd like to discuss the technical depth of this work or review full documentation in an interview setting.
 
 **Dimas Arsyad Hidayat**  
-📧 Dimasarsyad04@gmail.com  
-💼 www.linkedin.com/in/dimas-hidayat-911683120
+Dimasarsyad04@gmail.com  
+www.linkedin.com/in/dimas-hidayat-911683120
