@@ -2,7 +2,7 @@
 
 > **Role:** QA Manual Tester
 > **Testing Types:** Functional, Regression, Integration, Security (Basic), Usability, Environment & Non-Functional
-> **Tools Used:** Jira, Postman, SQL/MySQL, Google Workspace
+> **Tools Used:** Internal Ticketing System, Postman, SQL/MySQL, Google Workspace
 
 ---
 
