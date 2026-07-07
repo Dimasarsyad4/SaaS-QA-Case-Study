@@ -64,11 +64,7 @@ All modules defined in the Test Plan scope were covered during this testing cycl
 | Open      | 1 |
 | **Total** | **5** |
 
-The remaining open defect (data synchronization conflict between cloud and 
-physical attendance device) is classified as High severity and High priority 
-due to its potential impact on payroll accuracy, though it is limited to a 
-low-frequency edge-case scenario. This issue is documented in **Web-BugReport.md** 
-and remains under investigation at the time of this report.
+1 defect remains under investigation at the time of this report, classified as High severity and High priority due to its potential impact on data integrity and operational accuracy, though it is limited to a low-frequency edge-case scenario. This issue is documented in **Web-BugReport.md**.
 
 ---
 
@@ -93,10 +89,7 @@ rollout, given its downstream impact on attendance and payroll data.
 Based on the overall test results, the application is assessed as **conditionally 
 ready for release**, with the following consideration:
 
-- The open High-severity defect (device synchronization data collision) should 
-  be resolved or mitigated (e.g., through duplicate-ID validation at the device 
-  level) prior to full release, or closely monitored if released with a 
-  documented workaround.
+- The open High-severity defect should be resolved or mitigated prior to full release, or closely monitored if released with a documented workaround.
 - All other critical business workflows are stable and functioning as expected.
 
 ---
