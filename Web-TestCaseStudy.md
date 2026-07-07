@@ -1,4 +1,4 @@
-# QA Manual Tester Portfolio: Portfolio Case Study
+# QA Manual Tester: Web SaaS Platform Case Study
 **Platform Type:** Cloud-Based HR & Attendance SaaS (Web Admin Dashboard + IoT Hardware Integration)
 **Role:** QA Manual Tester & Technical Support
 **Testing Types:** Functional Testing, Regression Testing, Integration Testing, Boundary Value Analysis (BVA), Negative Testing, Usability Testing
@@ -9,7 +9,7 @@
 
 This project involved testing a SaaS platform for online attendance and Human Resource Management (HRM), handling enterprise business logic ranging from subscription billing to data synchronization between physical IoT biometric hardware and the cloud database.
 
-The product was a live, actively-used system undergoing frequent feature updates. My primary challenge was ensuring new deployments did not disrupt critical paths — such as authentication, payroll data, and payment processing — particularly given the absence of a pre-existing structured QA documentation framework.
+The product was a live, actively-used system undergoing frequent feature updates. My primary challenge was ensuring new deployments did not disrupt critical paths — such as authentication, operational data, and payment processing — particularly given the absence of a pre-existing structured QA documentation framework.
 
 ---
 
