@@ -128,7 +128,7 @@ value testing across all in-scope modules. Key techniques applied:
 # 9. Related Documents
 
 - LegacyApp-Test-Strategy.md
-- QA_LegacyAppDesktop_Testing.md
+- LegacyAppDesktop-StudyCaseTest.md
 - LegacyApp-Bug-Report.md
 - LegacyApp-Test-Execution-Report.md
 - LegacyApp-Test-Summary-Report.md
