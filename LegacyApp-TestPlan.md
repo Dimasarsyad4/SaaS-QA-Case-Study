@@ -21,9 +21,7 @@
 # 1. Purpose
 
 This document defines the scope, approach, environment, and criteria for manual 
-testing of the Desktop Attendance Management System — a desktop-based attendance 
-and payroll management application integrating local physical biometric hardware 
-with cloud database infrastructure.
+testing of the Desktop Attendance Management System — a desktop-based attendance management application integrating local physical biometric hardware with cloud database infrastructure.
 
 The primary objective is to ensure new deployments do not disrupt critical business 
 paths, including attendance report generation, local network handshakes, and 
@@ -40,7 +38,6 @@ database synchronization stability.
 | REG | Employee Registration & Data Management |
 | SCH | Shift & Schedule Management |
 | LEV | Leave Management |
-| PAY | Payroll Calculation & Integration |
 | DEV | Biometric Hardware / Device Synchronization |
 | NET | Network Communication & Cloud Gateway Integration |
 
