@@ -1,4 +1,4 @@
-# Test Plan & Test Case Matrix: Personnel Attendance Management System
+# Test Plan & Test Case Matrix: Desktop Attendance Management System & IoT Hardware Integration
 
 ---
 
@@ -6,7 +6,7 @@
 
 | Item | Description |
 |------|-------------|
-| Project | Personnel Attendance Management System |
+| Project | Desktop Attendance Management System & IoT Hardware Integration |
 | Document | Master Test Plan & Test Case Matrix |
 | Author | Dimas Hidayat |
 | Version | 7.4 |
