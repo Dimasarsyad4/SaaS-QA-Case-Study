@@ -95,7 +95,7 @@ value testing across all in-scope modules. Key techniques applied:
 
 # 6. Exit Criteria
 
-- All planned test cases for REG, SCH, LEV, PAY, DEV, and NET modules have 
+- All planned test cases for REG, SCH, LEV, DEV, and NET modules have 
   been executed
 - No open Critical severity defects remain unresolved
 - All High severity defects have been resolved or have a documented, 
