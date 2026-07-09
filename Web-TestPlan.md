@@ -102,32 +102,35 @@ Testing will be performed using:
 - API Validation
 - Database Validation
 
-Detailed testing techniques are documented in **02-TestStrategy.md**.
+Detailed testing techniques are documented in **Web-TestStrategy.md**.
 
 ---
 
 # 6. Entry Criteria
 
-Testing starts when:
+As this project involved ongoing QA support for an already-live application, 
+testing was initiated when:
 
-- Development is completed.
-- QA environment is deployed.
-- Test data is available.
-- APIs are accessible.
-- Test accounts are prepared.
-- Test devices are connected.
+- A user-reported issue or ticket is received and requires investigation.
+- A new application version/update is scheduled for deployment, requiring 
+  regression testing.
+- QA environment/staging access is available to reproduce the reported issue.
+- Test accounts and relevant test data are available for reproduction.
+- Test devices (biometric hardware) are connected, for issues involving 
+  device synchronization.
 
 ---
 
 # 7. Exit Criteria
 
-Testing is completed when:
+Testing is considered complete for a given cycle when:
 
-- All planned test cases have been executed.
+- All reported issues under investigation have been reproduced, root-caused, 
+  and documented.
 - Critical defects are resolved.
-- High severity defects are resolved or accepted.
-- Regression testing passes.
-- Product Owner approves the release.
+- High severity defects are resolved or have a documented, accepted workaround.
+- Regression testing for the affected release passes.
+- Product Owner / stakeholder approves the release.
 
 ---
 
