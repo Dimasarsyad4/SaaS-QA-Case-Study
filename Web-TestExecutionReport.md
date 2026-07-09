@@ -7,7 +7,7 @@
 ## Document Information
 
 | Item | Description |
-|------|-------------|
+|------|--------------|
 | Project | Cloud-Based HR & Attendance SaaS Platform (Web Admin Dashboard) |
 | Document | Web Test Execution Report |
 | Application Version | 2.0 |
@@ -17,19 +17,43 @@
 
 ---
 
-# 1. Purpose
+# 1. Executive Summary
 
-This document summarizes the execution of manual testing activities performed for the Cloud-Based HR & Attendance SaaS Platform (Web Admin Dashboard).
+This document presents the execution results of the manual QA cycle for the 
+Cloud-Based HR & Attendance SaaS Platform (Web Admin Dashboard). The objective 
+of this cycle was to validate business-critical workflows across authentication, 
+employee management, subscription/billing, payment processing, and cloud-to-device 
+synchronization prior to production deployment.
 
-The report provides an overview of the testing activities performed, modules covered, defect handling process, retesting activities, and overall execution outcome prior to production deployment.
+A total of **~45 test cases** were executed across 13 functional modules. 
+The testing uncovered several business-critical defects (payment gateway 
+regression, subscription quota leak, and cloud-to-device data synchronization 
+conflicts), of which the majority were resolved and verified through retesting 
+prior to this report.
 
 ---
 
-# 2. Execution Overview
+# 2. Test Execution Metrics
 
-Testing activities were executed according to the approved Test Plan and Test Strategy.
+Unlike a fixed, pre-planned test cycle, this project involved ongoing QA support 
+for an already-live application. Testing activities were driven by two primary 
+triggers:
 
-The execution focused on validating business-critical workflows, ensuring new functionality operated correctly, identifying software defects, and verifying that resolved issues did not introduce regressions before release.
+1. **User-Reported Issue Investigation** — Testing initiated in response to 
+   issues reported by end users or internal stakeholders through the ticketing system.
+2. **Version-Based Regression Testing** — Regression testing conducted whenever 
+   a new application version/update was deployed, to ensure existing 
+   functionality remained stable.
+
+### 2.1 Execution Summary
+
+| Metric | Statistics |
+|---|---|
+| Engagement Duration | ~1 year 8 months |
+| User-Reported Issues Investigated | ~150+ |
+| Confirmed Defects (Representative) | 5 |
+| Regression Cycles (tied to version releases) | ~35-40 |
+| Regression Frequency | 1-3x per month, varying by release cadence |
 
 ---
 
@@ -56,7 +80,7 @@ The following modules were included during this testing cycle:
 # 4. Test Environment
 
 | Component | Environment |
-|------------|-------------|
+|------------|--------------|
 | Browser | Google Chrome |
 | Operating System | Windows 11 |
 | API Validation | Postman |
@@ -71,8 +95,8 @@ The following modules were included during this testing cycle:
 
 The following activities were completed during this testing cycle:
 
-- Reviewed business requirements and feature specifications.
-- Prepared and executed manual test scenarios.
+- Investigated and reproduced issues reported by users/stakeholders via the ticketing system.
+- Executed regression testing scoped to affected areas whenever a new version was deployed.
 - Performed functional testing on newly implemented features.
 - Conducted regression testing before production deployment.
 - Verified integrations between cloud services and biometric attendance devices.
@@ -87,21 +111,20 @@ The following activities were completed during this testing cycle:
 
 ---
 
-# 6. Defect Execution Summary
+# 6. Detailed Defect Summary
 
-During execution, multiple defects affecting business-critical workflows were identified and documented.
+The following representative defects were identified and logged into the 
+internal ticketing system during this execution cycle:
 
-The primary areas where representative defects were discovered included:
+| Defect ID | Module | Bug Description | Severity | Status |
+|---|---|---|---|---|
+| **BUG-001** | Subscription | Automatic deduction leak on GPS App quota when accessing Subscription Plan Info page. | **High** | Resolved |
+| **BUG-002** | Payment | Severe payment gateway breakdown — multiple VA banks and e-wallets missing post-update. | **High** | Resolved |
+| **BUG-003** | Payment | QRIS payment timeout window too short (2–3 minutes), causing high transaction failure rates. | **Medium** | Resolved |
+| **BUG-004** | HR Admin | Employee Reference Code field mistakenly locked (Read-Only) for existing users. | **Medium** | Resolved |
+| **BUG-005** | IoT Sync/Reports | Data collision on local machine storage leads to overlapping attendance reports. | **High** | Open |
 
-- Subscription Management
-- Billing Calculation
-- Payment Processing
-- Employee Management
-- Cloud-to-Device Synchronization
-
-Representative defect samples are documented in:
-
-**Web-BugReport.md**
+Full defect details are documented in **Web-Bug-Report.md**.
 
 ---
 
@@ -114,13 +137,16 @@ After developers implemented fixes, retesting was conducted to verify:
 - No unintended side effects were introduced.
 - Existing functionality remained stable after implementation.
 
-All representative defects included in this portfolio were successfully verified after resolution.
+4 of 5 representative defects included in this portfolio were successfully 
+verified after resolution. One High-severity defect (cloud-to-device data 
+synchronization) remains open at the time of this report.
 
 ---
 
 # 8. Regression Testing Result
 
-Regression testing focused on validating high-risk business modules following defect resolution and feature deployment.
+Regression testing focused on validating high-risk business modules following 
+defect resolution and feature deployment.
 
 The primary regression scope included:
 
@@ -131,32 +157,39 @@ The primary regression scope included:
 - Billing
 - Payment Processing
 
-Regression testing confirmed that previously working functionality remained stable throughout the testing cycle.
+Regression testing confirmed that previously working functionality remained 
+stable throughout the testing cycle.
 
 ---
 
 # 9. Execution Outcome
 
-The testing activities successfully validated the application's critical business workflows before production deployment.
+Testing activities validated the application's critical business workflows 
+prior to production deployment. Out of 5 representative defects identified, 
+4 were resolved and verified through retesting, while 1 High-severity defect 
+(cloud-to-device data synchronization) remains open pending further investigation.
 
-Defects identified during testing were documented, communicated to the development team, verified after resolution, and confirmed through regression testing.
-
-The overall execution demonstrated the effectiveness of structured manual testing in improving software quality and reducing production risk.
+Defects identified during testing were documented, communicated to the 
+development team, verified after resolution where applicable, and confirmed 
+through regression testing. The overall execution demonstrated the effectiveness 
+of structured manual testing in improving software quality and reducing 
+production risk.
 
 ---
 
 # 10. Related Documents
 
-- Web-TestPlan.md
-- Web-TestStrategy.md
-- Web-TestCaseStudy.md
-- Web-BugReport.md
-- Web-TestSummaryReport.md
+- Web-Test-Plan.md
+- Web-Test-Strategy.md
+- Web-QA-Test-Study.md
+- Web-Bug-Report.md
+- Web-Test-Summary-Report.md
 
 ---
 
 ## Notes
 
-This document has been created for portfolio purposes based on professional QA practices.
-
-Company-specific implementation details, execution metrics, and internal testing records have been generalized to comply with confidentiality obligations while preserving the overall testing workflow and methodology.
+This document has been created for portfolio purposes based on professional QA 
+practices. Company-specific implementation details, execution metrics, and 
+internal testing records have been generalized to comply with confidentiality 
+obligations while preserving the overall testing workflow and methodology.
