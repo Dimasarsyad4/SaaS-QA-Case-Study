@@ -179,11 +179,11 @@ production risk.
 
 # 10. Related Documents
 
-- Web-Test-Plan.md
-- Web-Test-Strategy.md
-- Web-QA-Test-Study.md
-- Web-Bug-Report.md
-- Web-Test-Summary-Report.md
+- Web-TestPlan.md
+- Web-TestStrategy.md
+- Web-TestCaseStudy.md
+- Web-BugReport.md
+- Web-TestSummaryReport.md
 
 ---
 
