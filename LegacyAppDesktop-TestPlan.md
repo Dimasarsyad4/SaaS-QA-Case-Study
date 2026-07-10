@@ -35,11 +35,12 @@ database synchronization stability.
 
 | Module Code | Module |
 |---|---|
-| REG | Employee Registration & Data Management |
-| SCH | Shift & Schedule Management |
-| LEV | Leave Management |
-| DEV | Biometric Hardware / Device Synchronization |
-| NET | Network Communication & Cloud Gateway Integration |
+| INT | Cloud Integration |
+| SCH | Shift & Leave Management |
+| EMP | Employee Management |
+| DEV | Device Management |
+| SYNC | Device Sync / IoT Integration & Error Handling |
+| ENV | Environment & Infrastructure Validation (Network Reliability, OS Privilege, Network Isolation) |
 
 ## Out of Scope
 
