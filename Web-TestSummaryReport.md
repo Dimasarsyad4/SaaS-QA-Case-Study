@@ -80,7 +80,7 @@ degradation to existing functionality.
 
 One High-severity defect related to cloud-to-device data synchronization 
 remains open and is recommended for resolution prior to full production 
-rollout, given its downstream impact on attendance and payroll data.
+rollout, given its downstream impact on attendance data accuracy, which may subsequently affect payroll processing.
 
 ---
 
