@@ -98,6 +98,16 @@ Note: All defects listed remained open at the time of the author's departure fro
 
 ---
 
+# 9. Related Documents
+
+- LegacyAppDesktop-TestStrategy.md
+- LegacyAppDesktop-StudyCaseTest.md
+- LegacyAppDesktop-BugReport.md
+- LegacyAppDesktop-TestExecutionReport.md
+- LegacyAppDesktop-TestSummaryReport.md
+
+---
+
 ## Notes
 
 This document has been created for portfolio purposes based on professional QA practices. Company-specific implementation details, internal system names, and proprietary business logic have been generalized to comply with confidentiality obligations while preserving the overall testing workflow and methodology.
