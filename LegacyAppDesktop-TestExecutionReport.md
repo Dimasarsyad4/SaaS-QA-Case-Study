@@ -100,10 +100,10 @@ Note: All defects listed remained open at the time of the author's departure fro
 
 # 9. Related Documents
 
+- LegacyAppDesktop-TestPlan.md
 - LegacyAppDesktop-TestStrategy.md
 - LegacyAppDesktop-StudyCaseTest.md
 - LegacyAppDesktop-BugReport.md
-- LegacyAppDesktop-TestExecutionReport.md
 - LegacyAppDesktop-TestSummaryReport.md
 
 ---
