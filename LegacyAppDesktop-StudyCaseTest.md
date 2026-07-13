@@ -49,12 +49,12 @@ During testing cycles, I identified and documented several high-severity defects
 
 | Bug Category | Severity | Outcome |
 | :--- | :--- | :--- |
-| Weak input validation on structured national ID field allowing alphabetic bypass via keyboard navigation | Critical | Documented error flow; designed validation workaround to block local reporting database corruption |
-| Missing user ID collision validation during profile uploads to biometric hardware terminals | Critical | Mitigated through field deployment safeguards to prevent irreversible biometric identity scrambling |
-| Hardcoded un-cancelable duplicate alert loop triggering connection timeout failures | High | Isolated frontend UI thread lock; recommended event handling refactor to optimize notification loops |
-| Silent integration failure allowing incorrect database schemas to be saved without alerts | High | Escalated backend validation gap to core engineering team for immediate schema check implementations |
-| Cloud integration gateway connection lag causing random data-fetching synchronization delays | High | Identified, packaged network logs, and escalated directly to Central HQ QA for remote server updates |
-| Absent connection telemetry utility or "Test Connection" toggle on cloud control panels | Medium | Recommended integration of an explicit connectivity test module to maximize visibility of system status |
+| Weak input validation on structured national ID field allowing alphabetic bypass via keyboard navigation | Critical | Documented error flow; designed validation workaround to block local reporting database corruption. |
+| Missing user ID collision validation during profile uploads to biometric hardware terminals | Critical | Mitigated through field deployment safeguards to prevent irreversible biometric identity scrambling. |
+| Hardcoded un-cancelable duplicate alert loop triggering connection timeout failures | High | Isolated frontend UI thread lock; recommended event handling refactor to optimize notification loops. |
+| Silent integration failure allowing incorrect database schemas to be saved without alerts | High | Escalated backend validation gap to core engineering team for immediate schema check implementations. |
+| Cloud integration gateway connection lag causing random data-fetching synchronization delays | High | Identified, packaged network logs, and escalated directly to the core engineering team for remote server updates. |
+| Absent connection telemetry utility or "Test Connection" toggle on cloud control panels | Medium | Recommended integration of an explicit connectivity test module to maximize visibility of system status. |
 
 *(Full technical reproduction steps and internal system details are withheld in accordance with confidentiality obligations to the employer. Detailed walkthroughs available upon request during interviews.)*
 
