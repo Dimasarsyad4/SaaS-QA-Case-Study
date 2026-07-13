@@ -90,9 +90,10 @@ Environment/infrastructure validation (`ENV` category) confirmed the effectivene
 
 # 6. Conclusion & Recommendation
 
-The deployment of version **v7.4** exhibits notable instability within its cloud integration layer (`INT`) and IoT device synchronization layer (`SYNC`), with **2 unresolved Critical bugs** (silent NIK data corruption causing blank reports, and silent profile overwrite scrambling biometric identity mapping) alongside **3 High-severity bugs**, none of which had been resolved at the time of reporting.
+The deployment of version **v7.4** exhibits notable instability within its cloud integration layer (`INT`) and IoT device synchronization layer (`SYNC`), with **2 unresolved Critical bugs** (silent NIK data corruption causing blank reports, and silent profile overwrite scrambling biometric identity mapping) alongside **3 High-severity bugs**, none of which had 
+been resolved at the time of reporting.
 
-This build **does not meet** the Exit Criteria established in the Master Test Plan. It is recommended to withhold client-side production deployment until these defects — particularly the Critical-severity data integrity issues — are resolved and re-verified through another regression pass.
+As the application was already in active production use, it is recommended to prioritize resolution of the Critical-severity defects and apply interim mitigation measures to reduce data integrity risk while permanent fixes are developed.
 
 Note: All defects listed remained open at the time of the author's departure from the project. Retesting and resolution verification were not completed within this employment period.
 
