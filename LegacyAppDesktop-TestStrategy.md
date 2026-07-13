@@ -20,7 +20,7 @@
 
 # 1. Introduction
 
-This document outlines the strategic QA approach for testing the Desktop Attendance Management System (v7.4). It defines the testing levels, methodologies, data validation pipelines, and root-cause isolation techniques required to ensure the stability of the application’s core features, local database synchronization, and legacy biometric IoT hardware connectivity.
+This document outlines the strategic QA approach for testing the Desktop Attendance Management System (v7.4). Testing was conducted at the branch manual QA level, complementing a separate centralized automated QA function. It defines the testing levels, methodologies, data validation pipelines, and root-cause isolation techniques required to ensure the stability of the application's core features, local database synchronization, and legacy biometric IoT hardware connectivity.
 
 ---
 
