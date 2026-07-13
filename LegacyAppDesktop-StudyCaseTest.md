@@ -8,9 +8,9 @@
 
 ## 1. Project Overview & Situation
 
-This project involved testing Enterprise HRIS Desktop Application, a desktop-based attendance management application that handles enterprise business logic ranging from employee shift scheduling to data synchronization between local physical biometric hardware and cloud database infrastructures.
+This project involved testing Enterprise HRIS Desktop Application, a desktop-based attendance management application handling enterprise business logic ranging from employee shift scheduling to data synchronization between local physical biometric hardware and cloud database infrastructures.
 
-The product was an actively-used desktop system undergoing key version updates. My primary challenge was ensuring new deployments did not disrupt critical paths—such as attendance report generation, local network handshakes, and database synchronization stability—particularly given the initial absence of a pre-existing structured QA documentation framework.
+Quality assurance for this product operated across two layers: a centralized QA team focused on automated testing, and branch-level manual QA — my role — driven by direct user-reported cases and hands-on regression testing ahead of version updates. My primary challenge was ensuring new deployments (up to the latest version, v7.4) did not disrupt critical paths such as attendance report generation, local network handshakes, and database synchronization stability.
 
 ---
 
@@ -20,6 +20,10 @@ The product was an actively-used desktop system undergoing key version updates. 
 * **Regression Testing Management:** Conducted end-to-end regression testing before major software updates to ensure legacy biometric data-fetching processes and existing system modules remained completely stable.
 * **Cloud Sync Audit:** Monitored API data streaming behaviors, validated database schema routing parameters, and inspected error-handling telemetry on cloud configuration panels to ensure seamless background data flow.
 * **Hardware-to-Desktop Integration Analysis:** Identified network communication, local port data packet drops, and user identity overwrite synchronization conflicts between physical biometric attendance terminals and the desktop application.
+* **Known Issue Verification:** Re-verified whether previously identified 
+  defects persisted across version updates, confirming that several 
+  known issues remained unresolved as of version 7.4, alongside 
+  independently discovering new defects not previously documented.
 
 ---
 
