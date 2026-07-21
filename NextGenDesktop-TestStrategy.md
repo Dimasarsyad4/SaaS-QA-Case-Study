@@ -10,7 +10,7 @@
 |------|--------------|
 | Project | Next-Gen Desktop Attendance & IoT Management Application |
 | Document | Test Strategy |
-| Application Version | v1.1 – v1.7.4 |
+| Application Version | v1.7.1 – v1.7.4 |
 | Document Version | 1.0 |
 | Author | Dimas Hidayat |
 | Testing Type | Manual Testing |
@@ -68,7 +68,7 @@ Verify stable communication between the desktop application, biometric attendanc
 
 **Focus**
 
-Ensure application updates (v1.1 – v1.7.4) do not introduce regressions to existing functionality.
+Ensure application updates (v1.7.1 – v1.7.4) do not introduce regressions to existing functionality.
 
 **Key Operations**
 
