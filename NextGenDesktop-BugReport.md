@@ -30,9 +30,9 @@ To comply with Non-Disclosure Agreement (NDA) obligations, company names, produc
 
 | Bug ID | Title | Module | Severity | Priority | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **BUG-001** | Application occasionally freezes during the first launch after a fresh installation. | Employee Management | High | High | Partially Resolved |
-| **BUG-002** | Socket connection occasionally disconnects during manual device registration. | IoT | High | High | Resolved (Monitoring) |
-| **BUG-003** | Employee ID field accepts alphabetic and special characters. | Employee Management | Medium | Medium | Open |
+| **BUG-001** | Application occasionally freezes during the first launch after a fresh installation. | Employee Mgmt | High | High | Partially Resolved |
+| **BUG-002** | Socket connection occasionally disconnects during manual device registration. | Device & Integration | High | High | Resolved (Monitoring) |
+| **BUG-003** | Employee ID field accepts alphabetic and special characters. | Employee Mgmt | Medium | Medium | Open |
 | **BUG-004** | Application crashes when editing or deleting an active shift configuration. | Schedule / Shift | Critical | High | Closed |
 | **BUG-005** | Incorrect cross-day working hour calculation when the clock-out record is missing. | Schedule / Shift | High | High | Closed |
 | **BUG-006** | Auto Scan fails to detect all biometric devices on the local network. | Device & Integration | High | High | Monitoring |
