@@ -49,9 +49,9 @@ including one application crash and several silent validation failures.
 
 | Severity | Opened Bugs |
 | :--- | :--- |
-| **Critical** | 1 |
+| **Critical** | 2 |
 | **High** | 5 |
-| **Medium** | 1 |
+| **Medium** | 0 |
 | **Low** | 1 |
 | **Total** | **8** |
 
@@ -75,7 +75,7 @@ including one application crash and several silent validation failures.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **BUG-001** | TC-ENV-001 | Employee Mgmt | Application occasionally freezes on the splash screen during first launch after a fresh installation. | **High** | Partially Resolved |
 | **BUG-002** | TC-ENV-003 | IoT | Socket connection occasionally disconnects during manual device registration. | **High** | Resolved (Monitoring) |
-| **BUG-003** | TC-REG-003 | Employee Mgmt | Employee ID field accepts alphabetic and special characters without validation. | **Medium** | Open |
+| **BUG-003** | TC-REG-003 | Employee Mgmt | Employee ID field accepts alphabetic and special characters without validation. | **Critical** | Open |
 | **BUG-004** | TC-SCH-003 | Schedule/Shift | Application crashes when editing or deleting an active shift configuration. | **Critical** | Closed |
 | **BUG-005** | TC-SCH-004 | Schedule/Shift | Incorrect cross-day working hour calculation when the clock-out record is missing. | **High** | Closed |
 | **BUG-006** | TC-DEV-003 | Device & Integration | Auto Scan fails to detect all biometric devices on the local network. | **High** | Monitoring |
