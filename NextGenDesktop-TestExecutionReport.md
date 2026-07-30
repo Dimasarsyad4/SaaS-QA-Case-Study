@@ -119,6 +119,17 @@ improvement.
 
 ---
 
+# 7. Related Documents
+
+- NextGenDesktop-TestPlan.md
+- NextGenDesktop-TestStrategy.md
+- NextGenDesktop-StudyCaseTest.md
+- NextGenDesktop-BugReport.md
+- NextGenDesktop-TestSummaryReport.md
+
+--
+
+
 ## Notes
 
 This document has been created for portfolio purposes based on professional QA 
